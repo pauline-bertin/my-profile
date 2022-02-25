@@ -1,0 +1,109 @@
+/*Colors and front */
+body{
+	background: #ffffff;
+	color: #6e6e73;
+	font-family: 'EB Garamond', serif;
+	font-size: 17px;
+	font-weight: 400;
+	text-align: justify;
+	line-height: 1,5;
+}
+
+h1,h2{
+	font-family: 'Roboto', sans-serif;
+
+
+}
+h1{
+	color: #ffb34e;
+	font-size: 35px;
+	line-height: 1,8;
+	letter-spacing: 2px;
+	font-weight: 700;
+
+}
+
+h2{
+	color:#66172a;
+	font-weight: 600;
+	font-size: 25px;
+
+}
+
+a{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	text-decoration: none;
+	color: #ffb34e;
+}
+
+a:hover{color: #66172a ;}
+
+/*Custom design with class */
+
+.container{
+	width: 700px;
+	margin: 40px auto ;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+		
+	}
+}
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 9px ;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius:50%;
+
+}
+
+.btn-peach{
+	background-color: #ffb34e;
+	color:white;
+	padding: 15px 20px;
+	border-radius: 4px; 
+}
+
+.list-center, .list-inline {
+	list-style: none;
+	padding-left: 0px;
+	}
+
+
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+
+}
+
+.list-inline i{
+	font-size: 50px;
+
+}
+
+.list-inline i : hover{
+	color: #ffb34e;
+
+}
+
+/* Design adjustement using id */
+#introduction p {
+	margin-bottom: 40px;
+}
